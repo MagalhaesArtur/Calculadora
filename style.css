@@ -61,7 +61,7 @@ button:hover {
   word-wrap: break-word;
   word-break: break-all;
 }
-
+/* Display */
 .cima {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
