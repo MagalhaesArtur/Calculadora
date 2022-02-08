@@ -17,7 +17,7 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template-columns: repeat(4, 100px);
+  grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: minmax(100px, auto) repeat(5, 100px);
   min-height: 100vh;
 }
@@ -26,24 +26,30 @@ button {
   cursor: pointer;
   font-size: 2rem;
   outline: none;
-  border: 2px solid #111;
+  border: 4px solid #111;
   background-color: #111;
   color: #eee;
+  transition-property: border;
+  transition-duration: 400ms;
+  transition-delay: 100ms;
+  transition-timing-function: ease-in-out;
 }
 
 button:hover {
-  transition: border 500ms ease-in-out;
-  border-color: #eee;
+  border: #5341b8 solid 4px;
 }
 
 .operador {
   background-color: #5341b8;
-  border: 2px solid #5341b8;
+  border: 4px solid #5341b8;
+  transition-property: color border;
+  transition-duration: 400ms;
+  transition-delay: 100ms;
+  transition-timing-function: ease-in-out;
 }
 
 .operador:hover {
-  transition: border 700ms ease-in-out;
-  border-color: #eee;
+  border: 4px solid #111;
 }
 
 .twoSpaces {
@@ -51,6 +57,7 @@ button:hover {
 }
 
 .tela {
+  border-radius: 10px;
   background-color: #333;
   grid-column: 1 / -1;
   display: flex;
@@ -62,12 +69,12 @@ button:hover {
   word-break: break-all;
 }
 /* Display */
-.cima {
+.previusOperand {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
 
-.baixo {
+.curentOperand {
   color: white;
   font-size: 2.5rem;
 }
