@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #252333, #4941b8);
+  background: linear-gradient(to right, #332323, #b84141);
 }
 
 @font-face {
@@ -36,12 +36,12 @@ button {
 }
 
 button:hover {
-  border: #5341b8 solid 4px;
+  border: #b84141 solid 4px;
 }
 
 .operador {
-  background-color: #5341b8;
-  border: 4px solid #5341b8;
+  background-color: #b84141;
+  border: 4px solid #b84141;
   transition-property: color border;
   transition-duration: 400ms;
   transition-delay: 100ms;
