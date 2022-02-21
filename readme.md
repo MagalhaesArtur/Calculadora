@@ -4,9 +4,7 @@
     <img alt="readme" title="readme" src="./gifs/calculadora.gif">
 </h1>
 
-<h1 align="center">
-    <img alt="readme" title="readme" src="./imgs/jogo-da-memoria2.gif">
-</h1>
+
 
 <h1 align="center">Sobre</h1>
 <p>Aplicação que simula uma calculadora simples</p><br><br>
