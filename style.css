@@ -45,7 +45,7 @@ button:hover {
   transition-property: color border;
   transition-duration: 400ms;
   transition-delay: 100ms;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .operador:hover {
